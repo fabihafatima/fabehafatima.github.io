@@ -119,7 +119,7 @@ const Skills = () => {
     { src: "/css3.svg", label: "CSS" },
     { src: "/react.svg", label: "React.js" },
     { src: "/nodejs.svg", label: "Node.js" },
-    { src: "/github.png", label: "Git/Github" },
+    { src: "/Github.svg", label: "Git/Github" },
     { src: "/elastic-search.svg", label: "ElasticSearch" },
     { src: "/kibana.svg", label: "Kibana" },
     { src: "/logstash.svg", label: "Logstash" },

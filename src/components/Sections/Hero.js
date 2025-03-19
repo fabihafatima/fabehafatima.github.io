@@ -129,8 +129,8 @@ const Hero = () => {
               >
                 <h3 className="m-0">{`Currently pursuing a Master’s in Computer Science from the University of Massachusetts, Amherst. `}</h3>
                 <h3 className="m-0">
-                I am an enthusiastic full-stack developer with over three years of experience at Cisco. </h3>
-                <h3 className="m-0"> I quickly learn new skills, adapt to emerging technologies, enjoy problem-solving, <br /> and am self-motivated to take on professional challenges.
+                I am an enthusiastic full-stack developer with over three years of experience at Cisco Systems.
+                I quickly learn new skills, adapt to emerging technologies, enjoy problem-solving, and am self-motivated to take on professional challenges.
                 </h3>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src="/Github.svg"
+                  src="/github.svg"
                 />
               </button>
          
