@@ -88,3 +88,51 @@ const Experience = () => {
 };
 
 export default Experience;
+
+// import React from "react";
+// import experiences from "../experiences.json";
+// import SectionHeading from "./SectionHeading";
+// import TimelineItem from "./TimelineItem";
+
+// const Experience = ({ experienceRef }) => {
+//   return (
+    
+//     // <section
+//     //   className="bg-lightTertiaryColor text-lightText dark:bg-darkTertiaryColor dark:text-darkText theme-transition"
+//     //   ref={experienceRef}
+//     // >
+//       <section
+//       className="self-stretch bg-primary-black overflow-hidden flex flex-row items-start justify-start py-[60px] pr-[97px] pl-20 box-border max-w-full text-left text-29xl text-primary-white font-heading-h6-semibold mq825:py-[25px] mq825:pr-12 mq825:pl-10 mq825:box-border mq450:pt-5 mq450:pr-0 mq450:pl-0 mq450:pb-5 mq450:box-border mq1425:pt-[39px] mq1425:pb-[39px] mq1425:box-border"
+//       data-scroll-to="experience"
+//       >
+//       <div className="relative bg-[#e8d1c0] dark:bg-[#3d2b1f] p-4 md:p-12 rounded-lg shadow-inner text-lightText dark:text-darkText">
+//         {/* Background patterns remain the same */}
+
+         
+//         <div className="max-w-6xl mx-auto p-4 md:p-8">
+//           <div className="relative">
+//             {/* Responsive ladder rails */}
+//             <div className="hidden md:block absolute left-1/2 -ml-20 w-3 h-full bg-gradient-to-r from-amber-700 to-amber-800 rounded-full dark:from-amber-900 dark:to-amber-950" />
+//             <div className="hidden md:block absolute left-1/2 ml-20 w-3 h-full bg-gradient-to-r from-amber-700 to-amber-800 rounded-full dark:from-amber-900 dark:to-amber-950" />
+
+//             {/* Mobile vertical rail */}
+//             <div className="md:hidden absolute left-1/2 -ml-1.5 w-3 h-full bg-gradient-to-b from-amber-700 to-amber-800 rounded-full dark:from-amber-900 dark:to-amber-950" />
+
+//             {/* Timeline items */}
+//             <div className="relative space-y-8">
+//               {experiences.map((exp, index) => (
+//                 <TimelineItem
+//                   key={index}
+//                   experience={exp}
+//                   isEven={index % 2 === 0}
+//                 />
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Experience;
