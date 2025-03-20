@@ -1,5 +1,4 @@
-import React from 'react';
-
+// import { useEffect } from "react";
 // import Skill from "../SkillComponent";
 
 // const Skills = () => {
