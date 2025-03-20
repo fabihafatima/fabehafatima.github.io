@@ -88,14 +88,6 @@ const Hero = () => {
                   className="flex flex-row items-start justify-start [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0] max-w-full"
                   data-animate-on-scroll
                 >
-                  {/* <div className="w-96 h-96 flex items-center justify-center mt-10 lg:mt-0">
-                    <img
-                      className="w-full h-full object-cover rounded-lg shadow-lg"
-                      loading="eager"
-                      alt="Profile"
-                      src="/peep46@2x.png" 
-                    />
-                  </div> */}
                   <h1 className="m-0 relative text-inherit tracking-[-0.02em] leading-[56px] font-inherit mq825:text-19xl mq825:leading-[45px] mq450:text-10xl mq450:leading-[34px]">
                     <span>{`Hello I’m `}</span>
                     <b>Fabeha Fatima</b>
@@ -145,7 +137,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src="/LinkedIn.svg"
+                  src={`${process.env.PUBLIC_URL}/LinkedIn.svg`}
                 />
               </button>
               <button
@@ -155,7 +147,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src="/github.svg"
+                  src={`${process.env.PUBLIC_URL}/github.svg`}
                 />
               </button>
          
@@ -166,7 +158,7 @@ const Hero = () => {
               className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-contain [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-bottom] opacity-[0] lg:self-stretch lg:w-auto"
               loading="eager"
               alt=""
-              src="/my-image.png"
+              src={`${process.env.PUBLIC_URL}/my-image.png`}
               data-animate-on-scroll
             />
           </div>

@@ -6,7 +6,7 @@ const Footer = () => {
             className="relative w-[122px] h-6"
             loading="eager"
             alt=""
-            src="/logo.svg"
+            src={`${process.env.PUBLIC_URL}/logo.svg`}
           />
           <div className="flex flex-col items-end justify-start gap-[12px]">
             <div className="relative tracking-[-0.02em] leading-[20px] font-semibold">

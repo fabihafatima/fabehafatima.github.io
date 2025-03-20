@@ -110,22 +110,37 @@ const Skills = () => {
       }
     };
   }, []);
-
   const skills = [
-    { src: "/java.svg", label: "Java" },
-    { src: "/python.svg", label: "Python" },
-    { src: "/iconjavscript.svg", label: "JavaScript" },
-    { src: "/html5.svg", label: "HTML" },
-    { src: "/css3.svg", label: "CSS" },
-    { src: "/react.svg", label: "React.js" },
-    { src: "/nodejs.svg", label: "Node.js" },
-    { src: "/Github.svg", label: "Git/Github" },
-    { src: "/elastic-search.svg", label: "ElasticSearch" },
-    { src: "/kibana.svg", label: "Kibana" },
-    { src: "/logstash.svg", label: "Logstash" },
-    { src: "/docker.svg", label: "Docker" },
-    { src: "/grafana.svg", label: "Grafana" }
+    { src: `${process.env.PUBLIC_URL}/java.svg`, label: "Java" },
+    { src: `${process.env.PUBLIC_URL}/python.svg`, label: "Python" },
+    { src: `${process.env.PUBLIC_URL}/iconjavscript.svg`, label: "JavaScript" },
+    { src: `${process.env.PUBLIC_URL}/html5.svg`, label: "HTML" },
+    { src: `${process.env.PUBLIC_URL}/css3.svg`, label: "CSS" },
+    { src: `${process.env.PUBLIC_URL}/react.svg`, label: "React.js" },
+    { src: `${process.env.PUBLIC_URL}/nodejs.svg`, label: "Node.js" },
+    { src: `${process.env.PUBLIC_URL}/Github.svg`, label: "Git/Github" },
+    { src: `${process.env.PUBLIC_URL}/elastic-search.svg`, label: "ElasticSearch" },
+    { src: `${process.env.PUBLIC_URL}/kibana.svg`, label: "Kibana" },
+    { src: `${process.env.PUBLIC_URL}/logstash.svg`, label: "Logstash" },
+    { src: `${process.env.PUBLIC_URL}/docker.svg`, label: "Docker" },
+    { src: `${process.env.PUBLIC_URL}/grafana.svg`, label: "Grafana" }
   ];
+  
+  // const skills = [
+  //   { src: "/java.svg", label: "Java" },
+  //   { src: "/python.svg", label: "Python" },
+  //   { src: "/iconjavscript.svg", label: "JavaScript" },
+  //   { src: "/html5.svg", label: "HTML" },
+  //   { src: "/css3.svg", label: "CSS" },
+  //   { src: "/react.svg", label: "React.js" },
+  //   { src: "/nodejs.svg", label: "Node.js" },
+  //   { src: "/Github.svg", label: "Git/Github" },
+  //   { src: "/elastic-search.svg", label: "ElasticSearch" },
+  //   { src: "/kibana.svg", label: "Kibana" },
+  //   { src: "/logstash.svg", label: "Logstash" },
+  //   { src: "/docker.svg", label: "Docker" },
+  //   { src: "/grafana.svg", label: "Grafana" }
+  // ];
 
   const sectionBackgroundColor = 'rgb(215, 209, 235)';
 

@@ -52,7 +52,7 @@ const Projects = () => {
             </h1>
           </div>
           <ProjectComponent
-            Image="/umate.jpg"
+            Image={`${process.env.PUBLIC_URL}/umate.jpg`}
             Number="01"
             Title="UMate: Bumble for Roommates"
             ImageLink="https://github.com/fabihafatima/UMateFinder"
@@ -60,7 +60,7 @@ const Projects = () => {
             Text2="With UMate, users can easily create a profile, set their preferences, and find potential roommates using an interactive interface similar to dating apps and top-notch recommendation model, UMate suggests the top matches based on compatibility factors like the duration of stay, lifestyle, budget, dietary preferences, and more."
           />
           <ProjectComponent
-            Image="/TravelPlanner.jpeg"
+            Image={`${process.env.PUBLIC_URL}/TravelPlanner.jpeg`}
             Number="02"
             Title="Travel Planner"
             ImageLink="https://github.com/fabihafatima/travel-planner"
@@ -68,21 +68,21 @@ const Projects = () => {
             Text2="The platform leverages Llama-3.2-3B-Instruct for AI-powered suggestion generation, enhancing automation and customization in travel planning."
           />
           <ProjectComponent
-            Image="/fraudSpark.png"
+            Image={`${process.env.PUBLIC_URL}/fraudSpark.png`}
             Number="03"
             Title="FraudSpark: Real-Time Fraud Detection System"
             ImageLink="https://github.com/fabihafatima/FraudSpark-Real-Time-Fraud-Detection-System-"
             Text1="Built a distributed fraud detection system with Random Forest Classifier, optimized for imbalanced datasets and leveraged Kafka for real-time data streaming and PySpark for scalable processing"
           />
           <ProjectComponent
-            Image="/llm.png"
+            Image={`${process.env.PUBLIC_URL}/llm.png`}
             Number="04"
             Title="LLMs to the Rescue "
             ImageLink="https://github.com/fabihafatima/llms-to-the-rescue"
             Text1="Addressed class imbalance in text classification by leveraging Large Language Model (Llama-3.2) for data augmentation through style transfer using Python and synthetically enriched underrepresented classes"
           />
           <ProjectComponent
-            Image="/spede.jpg"
+            Image={`${process.env.PUBLIC_URL}/spede.jpg`}
             Number="05"
             Title="Spede: Detecting Emotions from Speech using Deep Learning"
             ImageLink="https://github.com/fabihafatima/Speech-Emotion-Detector-using-Deep-Learning"

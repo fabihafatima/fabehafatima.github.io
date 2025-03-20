@@ -75,7 +75,7 @@ const Navbar = () => {
             className="relative w-[22px] h-[22px]"
             loading="eager"
             alt=""
-            src="/icon.png"
+            src={`${process.env.PUBLIC_URL}/icon.png`}
           />
           <b className="relative text-xl tracking-[-0.02em] leading-[24px] capitalize font-heading-h6-semibold text-primary-black text-left whitespace-nowrap">{`Fabeha `}</b>
         </button>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <img
             className="relative w-5 h-5 overflow-hidden shrink-0"
             alt=""
-            src="/download.svg"
+            src={`${process.env.PUBLIC_URL}/download.svg`}
           />
         </button>
       </div>
