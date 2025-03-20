@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fabehafatima.github.io/static/css/main.aab53d4c.css",
-    "main.js": "/fabehafatima.github.io/static/js/main.ca36ad4b.js",
+    "main.js": "/fabehafatima.github.io/static/js/main.a1063bcb.js",
     "index.html": "/fabehafatima.github.io/index.html",
     "main.aab53d4c.css.map": "/fabehafatima.github.io/static/css/main.aab53d4c.css.map",
-    "main.ca36ad4b.js.map": "/fabehafatima.github.io/static/js/main.ca36ad4b.js.map"
+    "main.a1063bcb.js.map": "/fabehafatima.github.io/static/js/main.a1063bcb.js.map"
   },
   "entrypoints": [
     "static/css/main.aab53d4c.css",
-    "static/js/main.ca36ad4b.js"
+    "static/js/main.a1063bcb.js"
   ]
 }
