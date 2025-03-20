@@ -3,7 +3,7 @@
 Welcome to the repository for my personal portfolio website! This website serves as a showcase of my journey as a computer science student at UMass Amherst, highlighting my skills, projects, and passion for technology and innovation.
 
 ## Live Site
-The portfolio is live and accessible at [fabehafatima.github.io](https://fabehafatima.github.io).
+The portfolio is live and accessible at [fabehafatima.github.io](https://fabihafatima.github.io/fabehafatima.github.io).
 
 ## Website Overview
 This is a single-page application featuring a modern and clean design to present my experience and projects effectively. The navigation bar enables easy access to different sections, including:
