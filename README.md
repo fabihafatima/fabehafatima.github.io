@@ -3,7 +3,7 @@
 Welcome to the repository for my personal portfolio website! This website serves as a showcase of my journey as a computer science student at UMass Amherst, highlighting my skills, projects, and passion for technology and innovation.
 
 ## Live Site
-The portfolio is live and accessible at [fabihafatima.github.io](https://fabihafatima.github.io).
+The portfolio is live and accessible at [fabehafatima.github.io](https://fabihafatima.github.io/portfolio).
 
 ## Website Overview
 This is a single-page application featuring a modern and clean design to present my experience and projects effectively. The navigation bar enables easy access to different sections, including:
@@ -48,7 +48,7 @@ To set up the portfolio on your local machine:
    ```bash
    npm start
    ```
-   The portfolio will be available at `http://localhost:3000`.
+   The portfolio will be available at `http://localhost:3000/portfolio`.
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request. Any enhancements to improve the portfolio are greatly appreciated.
